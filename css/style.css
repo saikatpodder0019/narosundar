@@ -1,0 +1,193 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+/*font-family: 'Chivo', sans-serif;
+font-family: 'Open Sans', sans-serif;*/
+
+ul{
+	margin: 0;
+	padding: 0;
+}
+
+header{
+	width: 100%;
+	background-color: #150303;
+}
+.nav-link{
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	color: white !important;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+.nav-link:hover{
+	color: #fb0000 !important;
+}
+.quote-btn{
+	font-family: 'Open Sans', sans-serif;
+    padding: 25px 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    background-color: #fb0000;
+    margin-left: 16px;
+}
+.quote-btn:hover{
+	color: #150303;
+}
+.navbar{
+	padding: 0;
+}
+.nav-item{
+	margin: 16px;
+}
+#banner{
+	width: 100%;
+	background-color: #150303 !important;
+}
+.b-content{
+	height: 100vh;
+	display: flex;
+	align-items: center;
+}
+.b-content h1{
+	font-family: 'Chivo', sans-serif;
+	font-size: 80px;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #fff;
+}
+.b-content p{
+	font-family: 'Chivo', sans-serif;
+	font-size: 24px;
+	color: #fff;
+	padding-bottom: 34px;
+}
+.book-btn{
+	font-family: 'Chivo', sans-serif;
+    padding: 25px 60px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    background-color: #fb0000;
+}
+.book-btn:hover{
+	color: white;
+}
+#about{
+	width: 100%;
+	padding: 100px 0px;
+}
+.a-desc{
+	font-family: 'Open Sans', sans-serif;
+	color: #675e5e;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 0;
+}
+.a-item{
+	margin: 16px 0px;
+}
+.line{
+	height: 4px;
+	width: 60px;
+	background-color: #fb0000;
+	margin-bottom: 24px;
+}
+#about h2{
+	font-family: 'Chivo', sans-serif;
+	display: block;
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 1;
+	margin-bottom: 12px;
+}
+#about p{
+	font-family: 'Open Sans', sans-serif;
+	color: #675e5e;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.transparent{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 700;
+	border: 2px solid #fb0000;
+	color: #fb0000;
+	background-color: transparent !important;
+}
+.transparent:hover{
+	color: #fb0000;
+}
+#price{
+	width: 100%;
+	padding: 100px 0px;
+}
+.p-content{
+	margin: 5rem 0px;
+}
+.p-content h2{
+	font-family: 'Chivo', sans-serif;
+	display: block;
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 1;
+	margin-bottom: 52px;
+	padding-bottom: 22px;
+	border-bottom: 1px solid #000;
+}
+.fw-bold{
+	font-family: 'Chivo', sans-serif;
+	font-weight: 400 !important;
+	font-size: 16px;
+	padding-bottom: 14px;
+	margin-bottom: 14px;
+	color: #150303;
+}
+.p-amount{
+	color: #3f4854;
+    font-size: 18px;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+.p-amount span{
+	font-family: 'Chivo', sans-serif;
+	font-weight: 700;
+	color: #fb0000;
+}
+.p-list li{
+	margin-bottom: 14px;
+	border-bottom: 1px solid #efdce4;;
+}
+#service{
+	width: 100%;
+	padding: 100px 0px;
+}
+.s-content h2{
+	font-family: 'Chivo', sans-serif;
+	display: block;
+	font-size: 50px;
+	font-weight: 700;
+	line-height: 1;
+	margin-bottom: 42px;
+	text-transform: uppercase;
+}
+.accordion-button:not(.collapsed) {
+    color: #f8f9fa !important;
+    background-color: #fb0000 !important;
+    box-shadow: none !important;
+ }
+ .accordion-button{
+ 	font-family: 'Chivo', sans-serif;
+ 	font-size: 25px;
+ 	background-color: black;
+ 	color: white;
+ }
+ .accordion-item{
+ 	border: none;
+ }
